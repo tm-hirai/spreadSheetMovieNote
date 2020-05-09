@@ -1,0 +1,394 @@
+{
+    "page": 1,
+    "total_results": 10000,
+    "total_pages": 500,
+    "results": [
+        {
+            "popularity": 28.027,
+            "id": 707,
+            "video": false,
+            "vote_count": 1042,
+            "vote_average": 6.1,
+            "title": "007／美しき獲物たち",
+            "release_date": "1985-05-24",
+            "original_language": "en",
+            "original_title": "A View to a Kill",
+            "genre_ids": [
+                12,
+                28,
+                53
+            ],
+            "backdrop_path": "/hsczSIUHVMNdkzuQQQa49FMoUjP.jpg",
+            "adult": false,
+            "overview": "ソ連国内でアメリカ製の半導体チップを持ち出した003が雪原で遭難。遺体から半導体チップを回収したボンドはソ連軍に追われるが、スキー&スノーボードで振り切って任務を果たす。  003の死体から発見されたのはマイクロチップ。このチップは従来のものと違い、核爆発で発生する強力な磁気にも対抗できるものだった。製造元のゾリン産業が怪しいとにらんだ英国情報部はボンドにゾリンの内偵を命じる。そこでボンドはチップの製造元であるゾリン社を調査する。  社長のマックス・ゾリンが所有する常勝の競走馬を調査するうちに、その馬からはマイクロチップに制御されたステロイド供給装置が見つかる。ゾリンを追ってサンフランシスコに潜入したボンドは彼がシリコンバレーを壊滅させ、マイクロチップ市場を独占しようとしていることを知る。",
+            "poster_path": "/hoX0uMn24EQ6U6XjDlSixy5yS7l.jpg"
+        },
+        {
+            "popularity": 36.969,
+            "vote_count": 171,
+            "video": false,
+            "poster_path": "/1co8thSgZR34jHJweLS90yDyLsI.jpg",
+            "id": 403300,
+            "adult": false,
+            "backdrop_path": "/7OcLrFT8VkrMTUUwLQISJOwzz0n.jpg",
+            "original_language": "en",
+            "original_title": "A Hidden Life",
+            "genre_ids": [
+                18,
+                36,
+                10752
+            ],
+            "title": "A Hidden Life",
+            "vote_average": 7.2,
+            "overview": "",
+            "release_date": "2019-12-11"
+        },
+        {
+            "popularity": 24.159,
+            "vote_count": 5990,
+            "video": false,
+            "poster_path": "/1cooKcNMkRPDIAmsX5uZpeJ8t.jpg",
+            "id": 9487,
+            "adult": false,
+            "backdrop_path": "/s0eIBHJROgDWO3IoOt8FfQCFPGh.jpg",
+            "original_language": "en",
+            "original_title": "A Bug's Life",
+            "genre_ids": [
+                12,
+                16,
+                35,
+                10751
+            ],
+            "title": "バグズ・ライフ",
+            "vote_average": 6.9,
+            "overview": "池の中に浮かぶ島、アント・アイランドには主にアリたちが暮らしていた。夏になると島にバッタたちがやってきて、秋までの間にアリたちに食料を集めさせる仕事をさせていた。まるで農民たちに年貢を納めさせるかのように。奇抜な発明家・フリックはその発明品があまりに危険なことからアリたちに「歩く災難」とまで言われていた。彼は刈り取り機を発明したが、失敗してしまい集めた食料が川に流れてしまった。フリックは責任をとるためにバッタたちと対決することを決意し、手助けしてくれる強い用心棒を探すために都会に出ることをアリ達と約束したのだった。都会へ向かう道中、あるサーカス団が公演を行っていた。団員たちは公演中に起きたある事件がきっかけで全員解雇され、職を失ったのだった。",
+            "release_date": "1998-11-25"
+        },
+        {
+            "popularity": 29.694,
+            "id": 447332,
+            "video": false,
+            "vote_count": 7995,
+            "vote_average": 7.3,
+            "title": "クワイエット・プレイス",
+            "release_date": "2018-04-03",
+            "original_language": "en",
+            "original_title": "A Quiet Place",
+            "genre_ids": [
+                27,
+                18,
+                878
+            ],
+            "backdrop_path": "/roYyPiQDQKmIKUEhO912693tSja.jpg",
+            "adult": false,
+            "overview": "音に反応し人間を襲う”何か”によって荒廃した世界で、生き残った1組の家族がいた。その”何か”は、呼吸の音さえ逃さない。誰かが一瞬でも音を立てると、即死する。手話を使い、裸足で歩き、道には砂を敷き詰め、静寂と共に暮らすエヴリン＆リーの夫婦と子供たちだが、なんとエヴリンは出産を目前に控えているのであった。果たして彼らは、無事最後まで沈黙を貫けるのか？",
+            "poster_path": "/nZkSOMUQwg2OeVrRt8WivFJOHX3.jpg"
+        },
+        {
+            "popularity": 28.256,
+            "vote_count": 210,
+            "video": false,
+            "poster_path": "/ifn7yLH7W69MdrEEkNzCyO8rTmL.jpg",
+            "id": 526019,
+            "adult": false,
+            "backdrop_path": "/wMv7GL12s0bJmfv3ckdglOCQ8B3.jpg",
+            "original_language": "en",
+            "original_title": "Like a Boss",
+            "genre_ids": [
+                35
+            ],
+            "title": "Like a Boss",
+            "vote_average": 6.4,
+            "overview": "",
+            "release_date": "2020-01-09"
+        },
+        {
+            "popularity": 37.088,
+            "vote_count": 45,
+            "video": false,
+            "poster_path": "/8xiV8j18GhWnnrfMGaDR0E5oOif.jpg",
+            "id": 530956,
+            "adult": false,
+            "backdrop_path": "/9XCnndiIzsWibZhxPoo8EV04fzr.jpg",
+            "original_language": "en",
+            "original_title": "All Day and a Night",
+            "genre_ids": [
+                18
+            ],
+            "title": "All Day and a Night",
+            "vote_average": 6.4,
+            "overview": "",
+            "release_date": "2020-05-01"
+        },
+        {
+            "popularity": 16.969,
+            "id": 37735,
+            "video": false,
+            "vote_count": 4891,
+            "vote_average": 6.8,
+            "title": "Easy A",
+            "release_date": "2010-09-16",
+            "original_language": "en",
+            "original_title": "Easy A",
+            "genre_ids": [
+                35
+            ],
+            "backdrop_path": "/c6ZuSU54Q5HpBhuOhfWtGHILTGL.jpg",
+            "adult": false,
+            "overview": "",
+            "poster_path": "/pYeY5lBudgWAunG4qlsWCA3PlxM.jpg"
+        },
+        {
+            "popularity": 15.225,
+            "id": 623,
+            "video": false,
+            "vote_count": 1208,
+            "vote_average": 7.2,
+            "title": "ワンダとダイヤと優しい奴ら",
+            "release_date": "1988-07-15",
+            "original_language": "en",
+            "original_title": "A Fish Called Wanda",
+            "genre_ids": [
+                35,
+                80
+            ],
+            "backdrop_path": "/y8HaV1Ntr6nHmKxZ29B7DwxwvNU.jpg",
+            "adult": false,
+            "overview": "宝石泥棒をやり遂げた4人組。恋人同士のオットーとワンダはダイヤを独占するために警察に通報、リーダーのジョージを逮捕させるが……。それぞれが思惑を秘めたダイヤ争奪戦を描いた、ハイテンションな傑作コメディ。",
+            "poster_path": "/hkSGFNVfEEUXFCxRZDITFHVhUlu.jpg"
+        },
+        {
+            "popularity": 23.967,
+            "vote_count": 8234,
+            "video": false,
+            "poster_path": "/2uM0W1UsvcKJAU9BCBYTxqysO7i.jpg",
+            "id": 185,
+            "adult": false,
+            "backdrop_path": "/qhlt4mZR68VG9C1Hlwlq10D8KHJ.jpg",
+            "original_language": "en",
+            "original_title": "A Clockwork Orange",
+            "genre_ids": [
+                18,
+                878
+            ],
+            "title": "時計じかけのオレンジ",
+            "vote_average": 8.2,
+            "overview": "スタンリー・キューブリック監督の描く傑作SF。近未来、毎日のように暴力やセックスに明け暮れていた不良グループの首領アレックスは、ある殺人事件で仲間に裏切られ、ついに投獄させられてしまう。そこで彼は、攻撃性を絶つ洗脳の実験台に立たされるが……。",
+            "release_date": "1971-12-18"
+        },
+        {
+            "popularity": 16.051,
+            "id": 522518,
+            "video": false,
+            "vote_count": 413,
+            "vote_average": 7.9,
+            "title": "僕のワンダフル・ジャーニー",
+            "release_date": "2019-05-03",
+            "original_language": "en",
+            "original_title": "A Dog's Journey",
+            "genre_ids": [
+                10751
+            ],
+            "backdrop_path": "/71hIkBtvXhvRVh6HdE28CXaNNRz.jpg",
+            "adult": false,
+            "overview": "愛する飼い主のイーサン(デニス・クエイド)に会うために50年で3回生まれ変わり、ようやく再会した犬のベイリーは、イーサンと彼の妻ハンナ(マージ・ヘルゲンバーガー)と一緒に農場で暮らしていた。ある日、孫娘CJの母親グロリア(ベティ・ギルピン)が娘と一緒に出て行ってしまう。悲嘆に暮れるイーサンとハンナを見たベイリーは、ある決意をする。",
+            "poster_path": "/4pzN52wxBZ05EXBdoii1kqoIoD4.jpg"
+        },
+        {
+            "popularity": 58.063,
+            "vote_count": 6150,
+            "video": false,
+            "poster_path": "/4pKdjVqvulykpK9jz1OQDBlrRNY.jpg",
+            "id": 466272,
+            "adult": false,
+            "backdrop_path": "/er1S5nJyDSkmy7i2KkPMBjbwK8x.jpg",
+            "original_language": "en",
+            "original_title": "Once Upon a Time… in Hollywood",
+            "genre_ids": [
+                35,
+                18,
+                53
+            ],
+            "title": "ワンス・アポン・ア・タイム・イン・ハリウッド",
+            "vote_average": 7.5,
+            "overview": "リック・ダルトンはピークを過ぎたTV俳優。映画スターへの道がなかなか拓けず焦る日々が続いていた。そんなリックを支えるクリフ・ブースは彼に雇われた付き人でスタントマン、そして親友でもある。目まぐるしく変化するエンタテインメント業界で生き抜くことに精神をすり減らし情緒不安定なリックとは対照的に、いつも自分らしさを失わないクリフ。この二人の関係は、ビジネスでもプライベートでもまさにパーフェクト。しかし、時代は徐々に彼らを必要とはしなくなっていた。そんなある日、リックの隣に時代の寵児ロマン・ポランスキー監督と女優のシャロン・テート夫妻が越してくる。落ちぶれつつある二人とは対照的な輝きを放つ二人。この明暗こそハリウッド。リックは再び俳優としての光明を求め、イタリアでマカロニ・ウエスタン映画に出演する決意をするがー。そして、1969年8月9日ーそれぞれの人生を巻き込み映画史を塗り替える【事件】は起こる。",
+            "release_date": "2019-07-25"
+        },
+        {
+            "popularity": 29.261,
+            "vote_count": 7122,
+            "video": false,
+            "poster_path": "/rdhdfunHcGbIJaokUdXHRCwfQ0U.jpg",
+            "id": 62,
+            "adult": false,
+            "backdrop_path": "/spoZUN4X1KiOc5S0plOyGAXLNtb.jpg",
+            "original_language": "en",
+            "original_title": "2001: A Space Odyssey",
+            "genre_ids": [
+                12,
+                9648,
+                878
+            ],
+            "title": "2001年宇宙の旅",
+            "vote_average": 8.1,
+            "overview": "スタンリー・キューブリックがA・C・クラークのアイディアを基に製作したSF映画の金字塔。\r 月に人が住むようになった時代。月のティコクレーターの地中からの謎の石碑「モノリス」が発掘され、合衆国宇宙評議会のフロイド博士が調査に向かう。それから18カ月後、最新型人工知能「HAL 9000型コンピュータ」を搭載した宇宙船ディスカバリー号は、デビッド・ボウマン船長、フランク・プールら5人のクルーを乗せて木星探査に向けて航行していた。しかし、その途上でHALが探査計画に対して疑問を抱いていることを打ち明ける。ボウマンとプールはHALの不調を疑い、いざというときはHALの回路を切断することを決めるが、それを知ったHALは反乱を起こす。",
+            "release_date": "1968-04-09"
+        },
+        {
+            "popularity": 20.664,
+            "vote_count": 0,
+            "video": false,
+            "poster_path": "/6V6T6Tg4ZSls1SuGrA9MOAhyRjp.jpg",
+            "id": 679895,
+            "adult": false,
+            "backdrop_path": null,
+            "original_language": "en",
+            "original_title": "A Stormy Night",
+            "genre_ids": [],
+            "title": "A Stormy Night",
+            "vote_average": 0,
+            "overview": "",
+            "release_date": "2020-05-09"
+        },
+        {
+            "popularity": 41.092,
+            "vote_count": 0,
+            "video": false,
+            "poster_path": "/zqD8bMeNIKJLp0SSkh9gmkusO4X.jpg",
+            "id": 572299,
+            "adult": false,
+            "backdrop_path": "/lhalRpQ8gjc6PexUHZiI1dSzewK.jpg",
+            "original_language": "en",
+            "original_title": "How to Build a Girl",
+            "genre_ids": [
+                35
+            ],
+            "title": "How to Build a Girl",
+            "vote_average": 0,
+            "overview": "",
+            "release_date": "2020-05-08"
+        },
+        {
+            "popularity": 19.428,
+            "id": 453,
+            "video": false,
+            "vote_count": 6586,
+            "vote_average": 7.8,
+            "title": "ビューティフル・マインド",
+            "release_date": "2001-12-11",
+            "original_language": "en",
+            "original_title": "A Beautiful Mind",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "backdrop_path": "/9PwUQZDHGPKsgbnoBl1Ah9zXWjk.jpg",
+            "adult": false,
+            "overview": "1947年9月、プリンストン大学院の数学科に入学を果たしたジョン・ナッシュ。ひとり研究に没頭するナッシュは次第にクラスメートからも好奇の目で見られるようになる。しかし、ナッシュはついに画期的な「ゲーム理論」を発見する。やがてウィーラー研究所に採用されるが、米ソ冷戦下、彼の類い希な頭脳が暗号解読という極秘任務に利用され、次第に大きなプレッシャーに追いつめられていく…。",
+            "poster_path": "/zwzWCmH72OSC9NA0ipoqw5Zjya8.jpg"
+        },
+        {
+            "popularity": 12.15,
+            "id": 378111,
+            "video": false,
+            "vote_count": 83,
+            "vote_average": 5.8,
+            "title": "A Stork's Journey",
+            "release_date": "2017-05-05",
+            "original_language": "en",
+            "original_title": "A Stork's Journey",
+            "genre_ids": [
+                10751,
+                14,
+                12,
+                16,
+                35
+            ],
+            "backdrop_path": "/3BWd3jRlr06E022BKzQ8MxNfoRX.jpg",
+            "adult": false,
+            "overview": "",
+            "poster_path": "/aKwgGlhdhdbx0duJhCRojkEZXgU.jpg"
+        },
+        {
+            "popularity": 14.527,
+            "id": 21519,
+            "video": false,
+            "vote_count": 185,
+            "vote_average": 7.2,
+            "title": "プロジェクトA",
+            "release_date": "1983-12-22",
+            "original_language": "cn",
+            "original_title": "A計劃",
+            "genre_ids": [
+                28,
+                35,
+                12
+            ],
+            "backdrop_path": "/5w5hj9rLvbm0Gk1S1Y8RHHnwhbP.jpg",
+            "adult": false,
+            "overview": "ジャッキーのデビュー10周年を記念して作られた作品。海軍警備隊のジャッキーが、ユン・ピョウ、サモ・ハン・キン・ポーの協力の下、海賊たちと繰り広げる戦いを正に命懸けのスタント（20数メートルもの時計台からの落下シーンでは首の骨を折り本当に死にかけた）満載で描いた超コミカル・アクション大作。",
+            "poster_path": "/mDTFQFT6Gbrzg7VAkXLDJsYFGaD.jpg"
+        },
+        {
+            "popularity": 19.187,
+            "vote_count": 2574,
+            "video": false,
+            "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+            "id": 484247,
+            "adult": false,
+            "backdrop_path": "/nb1s8r6MhDcPyMjx3sjw9rFsEP5.jpg",
+            "original_language": "en",
+            "original_title": "A Simple Favor",
+            "genre_ids": [
+                35,
+                80
+            ],
+            "title": "A Simple Favor",
+            "vote_average": 6.6,
+            "overview": "",
+            "release_date": "2018-08-29"
+        },
+        {
+            "popularity": 14.587,
+            "vote_count": 1933,
+            "video": false,
+            "poster_path": "/bBzCG34Iel2xgaioYakXd8auPgt.jpg",
+            "id": 9476,
+            "adult": false,
+            "backdrop_path": "/inFHVFQb1qUzSSb8OjQs3B6kmIJ.jpg",
+            "original_language": "en",
+            "original_title": "A Knight's Tale",
+            "genre_ids": [
+                28,
+                12,
+                18,
+                10749
+            ],
+            "title": "A Knight's Tale",
+            "vote_average": 6.8,
+            "overview": "",
+            "release_date": "2001-05-11"
+        },
+        {
+            "popularity": 18.922,
+            "id": 508763,
+            "video": false,
+            "vote_count": 427,
+            "vote_average": 6.7,
+            "title": "ベラのワンダフル・ホーム",
+            "release_date": "2019-01-10",
+            "original_language": "en",
+            "original_title": "A Dog's Way Home",
+            "genre_ids": [
+                18,
+                12,
+                10751
+            ],
+            "backdrop_path": "/w7MsyOpP003FYhsiTgVHa3rNsrz.jpg",
+            "adult": false,
+            "overview": "野良犬だったベラは、退役軍人病院で働いている学生のルーカス(ジョナ・ハウアー=キング)に保護される。成長したベラはある日、家から600キロメートルも離れた場所で迷子になる。ベラはルーカスに会いたい一心で、家族が住む家を目指す。",
+            "poster_path": "/pZn87R7gtmMCGGO8KeaAfZDhXLg.jpg"
+        }
+    ],
+    "q": "A"
+}

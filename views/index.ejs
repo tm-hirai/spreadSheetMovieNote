@@ -18,47 +18,33 @@
 </head>
 
 <body>
-    
+
     <div uk-container uk-container-expand>
         <!-- search box -->
         <div class="uk-section uk-section-secondary uk-padding-small">
             <div class="uk-container uk-container-expand">
                 <h3>Movie Search</h3>
-                <div uk-grid>
-                    
-                    <div class="uk-width-4-5">
-                        <form>
-                            <input class="uk-input" type="text" placeholder="Keyword" id="keyword" name="q">
-                        </form>
-                    </div>
-                    <div class="uk-width-1-5">
-                        <button class="uk-button uk-button-default uk-width-1-1" onclick="runFunction()">Search</button>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- lists -->
-        <div class="uk-container" id="app">
-            <div class="uk-card uk-card-default uk-card-hover uk-card-body" id="card" v-for="mlist in mlists">
-                <div class="uk-container uk-container-expand">
+                <form action="http://localhost:3000/search/" method="get">
                     <div uk-grid>
-                        <div class="uk-width-1-5">
-                            <div class="uk-margin-auto">
-                                <!-- <img class="uk-margin-auto uk-margin-auto-vertical"
-                                    width="100" height="150" alt="no-image" uk-img :src="mlist.backdrop_path"> -->
-                                <img :src="mlist.backdrop_path">
-                            </div>
-                        </div>
                         <div class="uk-width-4-5">
-                            <h3>{{ mlist.title }}</h3>
-                            <p>{{ mlist.overview }}</p>
+
+                            <input class="uk-input" type="text" placeholder="Keyword" id="keyword" name="q">
+                            <input style="display: none;" class="uk-input" type="text" placeholder="Keyword"
+                                id="keyword" name="p" value="1">
+
+                        </div>
+                        <div class="uk-width-1-5">
+                            <button class="uk-button uk-button-default uk-width-1-1" type="submit">Search</button>
                         </div>
                     </div>
-                </div>
             </div>
+            </form>
+
         </div>
-        <script src="/javascripts/index.js"></script>
     </div>
+
+    <script src="/javascripts/index.js"></script>
 </body>
+
 </html>
