@@ -17,6 +17,7 @@ router.get('/', function (req, res, next) {
 fs.readFile('credentials.json', (err, content) => {
     if (err) return console.log('Error loading client secret file:', err);
     // Authorize a client with credentials, then call the Google Sheets API.
+    console.log(content);
     authorize(JSON.parse(content), listMajors);
   });
   
@@ -26,6 +27,7 @@ fs.readFile('credentials.json', (err, content) => {
    * @param {Object} credentials The authorization client credentials.
    * @param {function} callback The callback to call with the authorized client.
    */
+  console.log(credentials)
   function authorize(credentials, callback) {
     const {client_secret, client_id, redirect_uris} = credentials.installed;
     const oAuth2Client = new google.auth.OAuth2(
