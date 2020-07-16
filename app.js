@@ -40,7 +40,6 @@ passport.use(new GoogleStrategy({
 ));
 
 var indexRouter = require('./routes/index');
-var oauthRouter = require('./routes/oauth');
 var searchRouter = require('./routes/search');
 var movieRouter = require('./routes/movie');
 var sheetRouter = require('./routes/sheet');
@@ -63,7 +62,6 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.use('/', indexRouter);
-app.use('/oauth', oauthRouter);
 app.use('/search', searchRouter);
 app.use('/movie', movieRouter);
 app.use('/sheet', sheetRouter);
