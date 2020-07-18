@@ -1,8 +1,9 @@
 extends layout
 
 block content
-
-  h1 #{title}
-  h1 #{max}
-  h1 #{message}
-  p #{user}
+  h1.text-center.mb-3.pt-5 検索
+  div.d-flex.justify-content-center
+    form(action="/search").form-inline
+      label.sr-only keyword
+      input(type="text" name="q").form-control
+      button(type="submit").btn.btn-primary.ml-1 search

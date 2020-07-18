@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  p 検索結果
+  .container-fluid
+    - let slice_count=12
+    - for(let i=0;i<message.results.length/slice_count;i++)
+      - const sl_results = message.results.slice(i*slice_count,i*slice_count+slice_count)
+      .row
+      
+        //- p #{result}
+        //- p #{i*4+1}
+        each result in sl_results
+          .col-md-1
+            .card
+              img.card-img-top(src=`https://image.tmdb.org/t/p/w1280${result.poster_path}`, alt="")
+              .card-body
+                p.card-text #{result.title}
+
+  //- p https://image.tmdb.org/t/p/w1280 poster_path title
