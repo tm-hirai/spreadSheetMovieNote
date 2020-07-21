@@ -1,0 +1,37 @@
+extends layout
+
+block content
+  p 詳細
+  .container
+    form(action=`/movie/${message.id}`, method="post")
+      div.form-group
+        label(for="m_title") タイトル
+        input(type="text" id="m_title" name="title" value=`${message.title}`).form-control
+      .row
+        .col
+          div.form-group
+            label(for="m_release_date") 製作年
+            input(type="text" id="m_release_date" name="release_date" value=`${message.release_date}`).form-control
+        .col
+          div.form-group
+            label(for="m_countries") 製作国
+            input(type="text" id="m_countries" name="countries" value=`${message.production_countries}`).form-control
+      div.form-group
+        label(for="m_genres") ジャンル
+        input(type="text" id="m_genres" name="genres" value=`${message.genres}`).form-control
+      div.form-group
+        label(for="m_date") 視聴日
+        input(type="text" id="m_date" name="date" value=`${message.date}`).form-control
+      div.form-group
+        label(for="m_rating") 評価
+        select(type="text" id="m_rating" name="rating").form-control
+          option ☆
+          option ☆☆
+          option ☆☆☆
+          option ☆☆☆☆
+          option ☆☆☆☆☆
+          option ☆☆☆☆☆+
+      div.form-group
+        label(for="m_comment") 感想
+        textarea(type="text" id="m_comment" name="comment" rows="4").form-control
+      button(type="submit").btn.btn-primary 投稿

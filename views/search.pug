@@ -2,7 +2,7 @@ extends layout
 
 block content
   p 検索結果
-  .container-fluid
+  .container
     - let slice_count=12
     - for(let i=0;i<message.results.length/slice_count;i++)
       - const sl_results = message.results.slice(i*slice_count,i*slice_count+slice_count)
@@ -11,10 +11,11 @@ block content
         //- p #{result}
         //- p #{i*4+1}
         each result in sl_results
-          .col-md-1
+          .col-lg-2.col-md-4.col-6
             .card
               img.card-img-top(src=`https://image.tmdb.org/t/p/w1280${result.poster_path}`, alt="")
               .card-body
                 p.card-text #{result.title}
+                a.stretched-link(href=`/movie/${result.id}`)
 
   //- p https://image.tmdb.org/t/p/w1280 poster_path title
