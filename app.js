@@ -9,12 +9,11 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const session = require('express-session');
 require('dotenv').config()
 
-var os = require('os');
-var hostname = os.hostname();
-console.log(hostname);
-
 const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
 const GOOGLE_CLIENT_SECRET= process.env.GOOGLE_CLIENT_SECRET;
+
+console.log(process.env.NODE_ENV)
+const callbackURL = process.env.NODE_ENV=="development" ? "http://localhost:3000/auth/google/callback" : "https://fast-dusk-16610.herokuapp.com/auth/google/callback";
 
 // passport
 passport.serializeUser(function (user, done) {
@@ -26,7 +25,7 @@ passport.deserializeUser(function (obj, done) {
 passport.use(new GoogleStrategy({
   clientID: GOOGLE_CLIENT_ID,
   clientSecret: GOOGLE_CLIENT_SECRET,
-  callbackURL: "http://localhost:3000/auth/google/callback"
+  callbackURL: callbackURL
 },
   function (accessToken, refreshToken,profile, done) {
     // console.log(profile);
@@ -87,9 +86,6 @@ app.get('/login', function (req, res) {
 app.get('/logout', function (req, res) {
   req.logout();
   res.redirect('/');
-});
-app.get('/hostname', function (req, res) {
-  res.send(hostname);
 });
 
 // catch 404 and forward to error handler
