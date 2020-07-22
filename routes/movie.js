@@ -4,9 +4,10 @@ const request = require("request");
 const fs = require("fs");
 const country_code = JSON.parse(fs.readFileSync("country_code.json"));
 const tmdb_api_key = process.env.TMDb_API_KEY;
+const authenticationEnsurer = require('./authentication-ensurer');
 
 /* GET home page. */
-router.get("/:id", function (req, res, next) {
+router.get("/:id",authenticationEnsurer, function (req, res, next) {
   const title = "Move";
   console.log(req.params.id);
 
@@ -52,7 +53,7 @@ router.get("/:id", function (req, res, next) {
   });
 });
 
-router.post("/:id", function (req, res, next) {
+router.post("/:id",authenticationEnsurer, function (req, res, next) {
   console.log(req.body);
   // console.log(req.body.toString());
   console.log(req.params.id);

@@ -45,7 +45,6 @@ passport.use(new GoogleStrategy({
 var indexRouter = require('./routes/index');
 var searchRouter = require('./routes/search');
 var movieRouter = require('./routes/movie');
-var sheetRouter = require('./routes/sheet');
 
 
 var app = express();
@@ -67,7 +66,6 @@ app.use(passport.session());
 app.use('/', indexRouter);
 app.use('/search', searchRouter);
 app.use('/movie', movieRouter);
-app.use('/sheet', sheetRouter);
 
 app.get('/auth/google',
 passport.authenticate('google', { scope: ['profile','https://www.googleapis.com/auth/spreadsheets'] })

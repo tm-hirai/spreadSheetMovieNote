@@ -3,9 +3,10 @@ const router = express.Router();
 const request = require('request');
 const fs =require('fs');
 const tmdb_api_key = process.env.TMDb_API_KEY;
+const authenticationEnsurer = require('./authentication-ensurer');
 
 /* GET home page. */
-router.get('/', function (req, res, next) {
+router.get('/',authenticationEnsurer, function (req, res, next) {
   const title = 'Home';
   console.log(req.query.q);
   if (!req.query.q) {
