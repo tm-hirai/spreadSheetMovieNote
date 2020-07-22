@@ -7,11 +7,11 @@ const fs = require('fs');
 const passport =require('passport');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const session = require('express-session');
+require('dotenv').config()
 
-const credentials = JSON.parse(fs.readFileSync('./credentials.json','utf8')).web;
-const GOOGLE_CLIENT_ID = credentials.client_id;
-const GOOGLE_CLIENT_SECRET=credentials.client_secret;
-console.log({GOOGLE_CLIENT_ID,GOOGLE_CLIENT_SECRET})
+const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
+const GOOGLE_CLIENT_SECRET= process.env.GOOGLE_CLIENT_SECRET;
+
 // passport
 passport.serializeUser(function (user, done) {
   done(null, user);
