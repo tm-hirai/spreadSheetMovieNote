@@ -9,6 +9,10 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const session = require('express-session');
 require('dotenv').config()
 
+var os = require('os');
+var hostname = os.hostname();
+console.log(hostname);
+
 const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
 const GOOGLE_CLIENT_SECRET= process.env.GOOGLE_CLIENT_SECRET;
 
@@ -83,6 +87,9 @@ app.get('/login', function (req, res) {
 app.get('/logout', function (req, res) {
   req.logout();
   res.redirect('/');
+});
+app.get('/hostname', function (req, res) {
+  res.send(hostname);
 });
 
 // catch 404 and forward to error handler
